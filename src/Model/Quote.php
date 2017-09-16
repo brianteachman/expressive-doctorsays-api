@@ -60,6 +60,7 @@ class Quote
             foreach ($doctor['quotes'] as $quote) {
                 $total += 1;
             }
+
         }
         return $total;
     }
